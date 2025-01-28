@@ -1,0 +1,11 @@
+<div class="cart">
+    <h2>Your Cart</h2>
+    <ul>
+      <li *ngFor="let item of cartItems">
+        {{ item.name }} - ${{ item.price }} x {{ item.quantity }}
+      </li>
+    </ul>
+    <p>Total: ${{ totalPrice }}</p>
+    <button class="btn btn-primary">Checkout</button>
+  </div>
+  

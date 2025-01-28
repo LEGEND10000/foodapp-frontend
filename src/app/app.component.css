@@ -1,0 +1,35 @@
+/* Styling for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002c31;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: rgb(0, 255, 234);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the main container */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: #002826;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container p {
+  font-size: 1.2rem;
+  color: #666;
+}
